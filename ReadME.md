@@ -1,38 +1,38 @@
 ### Front-end Technologies
 
--HTML
--CSS
--JavaScript
--Bootstrap framework
--Angular Framework
--ReactJS
+- HTML
+- CSS
+- JavaScript
+- Bootstrap framework
+- Angular Framework
+- ReactJS
 
 ### Backend Technologies
 
--Node.js
-      -express.js
-      -nodemoon
-      -cors
-      -dotenv
--PHP
--C#
--Java
--Python
+- Node.js
+      - express.js
+      - nodemoon
+      - cors
+      - dotenv
+- PHP
+- C#
+- Java
+- Python
 
 ### Databases
 
--MongoDB
--Mysql
--SQLite
--Firebase
--Postgressql
--Oracle
+- MongoDB
+- Mysql
+- SQLite
+- Firebase
+- Postgressql
+- Oracle
 
--VCS or (Source Code Management)
++ VCS or (Source Code Management)
         - Distributed VCS
-             -Git,Mercurial
+            - Git,Mercurial
         - Remote(central) VCS
-             -Github,Bitbucket
+            - Github,Bitbucket
 ###  Git
 - git init
 - git add filename
@@ -71,3 +71,7 @@
     - legend
     - sup
     - sub
+
+### Reference links
+- [flaticon](https://www.flaticon.com/)
+
