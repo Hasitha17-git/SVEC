@@ -41,3 +41,33 @@
 - git status
 - Do git configurations(set user.name and user.email)
 - commit data with commit message
+- Push the code into Github
+
+### HTML5
+- Hyper Text Markup Language
+- Semantic elements
+    - header
+    - section
+    - article
+    - aside
+    - footer
+    - table
+
+- Block level elements
+    - h1 to h6
+    - p
+    - div
+    - allsemantic elements
+    - text with start from newline
+
+- Inline elements
+    - span
+    - img
+    - a
+    - nav
+    - form
+    - input
+    - textarea
+    - legend
+    - sup
+    - sub
