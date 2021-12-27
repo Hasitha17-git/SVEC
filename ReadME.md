@@ -71,6 +71,8 @@
     - legend
     - sup
     - sub
+    - ul
+    - ol
 
 ### Reference links
 - [flaticon](https://www.flaticon.com/)
