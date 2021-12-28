@@ -127,6 +127,35 @@ selector {
 + Width
 - 1rem:16px
 
+#### Flex-Box
++ display
+   - none
+   - inline
+   - block
+   - inline-block
++ position
+    - static
+    - relative
+    - absolute
+    - fixed
+    - sticky
++ align-content
++ align-items
++ align-self
+
+### Responsive Web Design
+#### Flex-Box
+- display
+  - flex
+    - flex-wrap
+    - justify-content
+    - flex-direction
+    - flex-flow
+Task 2:
+- Index page
+- registration page
+- Login page
+
 ### Reference links
 - [GITHUBLOGIN](https://github.com/Hasitha17-git/SVEC)
 - [flaticon](https://www.flaticon.com/)
