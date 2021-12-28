@@ -29,10 +29,10 @@
 - Oracle
 
 + VCS or (Source Code Management)
-        - Distributed VCS
-            - Git,Mercurial
-        - Remote(central) VCS
-            - Github,Bitbucket
+    - Distributed VCS
+        - Git,Mercurial
+    - Remote(central) VCS
+        - Github,Bitbucket
 ###  Git
 - git init
 - git add filename
