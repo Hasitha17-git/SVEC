@@ -10,10 +10,10 @@
 ### Backend Technologies
 
 - Node.js
-      - express.js
-      - nodemoon
-      - cors
-      - dotenv
+    - express.js
+    - nodemoon
+    - cors
+    - dotenv
 - PHP
 - C#
 - Java
