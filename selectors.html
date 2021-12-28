@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>::) CSS Selectors (::</title>
+     <style>
+    /* *{
+        border: 10px solid rgb(red, green, blue);
+    }  */
+         div p {
+            background-color: violet;
+            color: rgb(245, 245, 245);
+        } 
+         div > p { 
+            background-color: aquamarine;
+            color: blueviolet;
+         } 
+         section + p{ 
+            background-color: cyan;
+            color: seashell;
+        } 
+        div + h4 { 
+            font-size: 100px;
+         }  
+        div~p{
+            background-color: skyblue;
+         }
+         p:first-letter {
+             font-size: 100px;
+         } 
+         p::first-line{
+             background-color: seagreen;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <div>
+            <p>paragraph3</p>
+        </div>
+        <section>
+        <p>paragraph4</p>
+        </section>
+        <p>paragraph5</p>
+
+    </div>
+<h4>end</h4>
+    
+</body>
+</html>
