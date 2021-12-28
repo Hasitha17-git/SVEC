@@ -152,9 +152,9 @@ selector {
     - flex-direction
     - flex-flow
 + Task 2:
-- Index page
-- registration page
-- Login page
+  - Index page
+  - registration page
+  - Login page
 
 ### Reference links
 - [GITHUBLOGIN](https://github.com/Hasitha17-git/SVEC)
