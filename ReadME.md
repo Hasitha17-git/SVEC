@@ -151,7 +151,7 @@ selector {
     - justify-content
     - flex-direction
     - flex-flow
-Task 2:
++ Task 2:
 - Index page
 - registration page
 - Login page
