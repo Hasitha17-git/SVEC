@@ -143,6 +143,7 @@ selector {
 + align-items
 + align-self
 
+### ANIMATIONS
 ### Responsive Web Design
 #### Flex-Box
 - display
@@ -156,9 +157,94 @@ selector {
   - registration page
   - Login page
 
+### Media Queries
+
+- Extra small devices(Mobiles)
+    - max-width:600px
+- Small devices(Large phones/small tablets)
+    - min-width:600px
+    - max-width:768px
+- Medium Devices(small laptops)
+    - min-width:768px
+- Large devices(Large laptops or desktops)
+    - min-width:992px
+- Extra Large devices()
+    - min-width:1200px
+
+
+```
+@media only screen(min-width:320px) and (max-width:500px){
+  css code
+}
+```
+### Bootstrap4.6
+
+- It is a CSS framework.
+
+Task3:
+=============
+   - Navbar with Responsive
+
+- Module(Collection of functions and classes or any code)
+- Package (Collection of modules)
+- Library(Collection of Packages)
+- Framework(Collection of libraries)
+
++ Module --> Package -->Library --> Framework
+
++ Types of Modes
+  - offline
+  - online
+     - CDN links
+
++ background-color - bg
++ text-white
++ Margin in Bootstrap(m-*(0-5))
+    - 0 --> 0rem
+    - 1 --> 0.25rem(4px)
+    - 2 --> 0.5rem(8px)
+    - 3 --> 1rem(16px)
+    - 4 --> 1.5rem(24px)
+    - 5 --> 3 rem(48px)
+    - ml-5(margin-left)
+    - m(margin in all directions)
+    - mt(margin-top)
+    - mb(margin-bottom)
+    - mr(margin-right)
+
++ Padding(padding-left --> pl-5)
+
++ Colors
+  - primary
+  - secondary
+  - info
+  - success
+  - warning
+  - danger
+  - light
+  - dark
+  - white
+
++ We can use color classes for
+  - Buttons(btn btn-primary)
+  - text(text-white)
+  - background(background-secondary)
+  - alerts(alert alert-primary)
+
++ Grid system
+   - col-sm-12
+   - sm(small devices)
+   - md(medium devices)
+   - lg(large devices)
+   - xl(extra large devices)
+  
++ Modal
++ Table
+
 ### Reference links
 - [GITHUBLOGIN](https://github.com/Hasitha17-git/SVEC)
 - [flaticon](https://www.flaticon.com/)
 - [SVG](https://freesvg.org/)
 - [HTMLcolorcodes](https://htmlcolorcodes.com/)
 - [WebAIM Contrast checker](https://webaim.org/resources/contrastchecker/)
+- [Bootstrapv4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/?)
