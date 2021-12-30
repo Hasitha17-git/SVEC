@@ -241,6 +241,130 @@ Task3:
 + Modal
 + Table
 
+#### JavaScript
++ In 1995 `Brenden Eich` introduced Javascript(ES-262)
++ It is loosely-touple and dynamic language
++ It is text based programming language and we can run in client-side 
+  and server-side for dynamic web applications
+- ECMA-Script(european computer manufacture association)(ES-6)
+   - let & const
+   - map()
+   - arrow function
+   - classes
+   - spread operator
+   - rest parameter
++ Datatypes
+   - Number
+   - BigInt(2^53-1)
+   - String
+   - boolean
+   - undefine
+   - Null
+   - Object
+   - Array
++ Variables
+  - var,let & const
+  - Scope
+     - function level-->var
+     - block level-->let & const
+  - Redeclare-->var
+  - Redefine-->var,let
+
++ `typeof()`
++ Object
+        ```
+        {
+            name:"hasitha"
+        }
+        ```
+#### Alerts
++ To generate notifications
+   - alert
+   - prompt(to take input from the user)
+   - confirm    
+
++ console statements
+  - `console.log()`
+  - `console.info()`
+  - `console.warn()`
+  - `console.error()`    
+
++ Spread operator
+  - to change array elements from one array to another(swamp)
+ ```
+  ...variableName
+```
++ Rest parameter
+  + to handle function parameters
+```
+ ...parameter
+```
+
++ Destructuring of Array and Objects
++ Functions
+ - function with function name
+ ```
+ function demo(){
+   return x+y
+ } 
+ demo()
+ ```
+ - Anonymous function
+ ```
+ let demo=function(x,y)
+ {
+   return x+y
+ }
+ ```
+ - Arrow function
+ ``` 
+ let demo=(x,y)=>{
+   return x*y
+ }
+ ```
+
+ + for in
+  - to get index-values of an array
++ for-of
+  - to get elements in an arry
++ forEach() --> (ES-5)
++ map()-->(ES-6)
+
+### DOM
+  - Document Object Model
+  - Document
+  - History
+  - window
+  - Navigator(PWA-progressive web application)
+
++ DOM methods
+ - `getElementById()`
+ - `getElementsByClassNme()`
+ - `querySelector()`
+ - `innerText`
+ - `textContent`
+ - `append`
+ - `appendChild`
+ - `innerHTML`
+ - `setAttribute()`
+ - `classList`
+ - `style`
+ - `src`
+
+#### JSON
++ Java Script Object Notation
+   - To exchange info between application and server
+```
+{
+  "name":"NERELLA CHANDRA HASITHA",
+  "age":18,
+  "designation":"MERN Developer",
+  "mobile":937720286
+}
+```
+
++ Ajax call or Promises(fetch API) or axios
+
 ### Reference links
 - [GITHUBLOGIN](https://github.com/Hasitha17-git/SVEC)
 - [flaticon](https://www.flaticon.com/)
@@ -248,3 +372,4 @@ Task3:
 - [HTMLcolorcodes](https://htmlcolorcodes.com/)
 - [WebAIM Contrast checker](https://webaim.org/resources/contrastchecker/)
 - [Bootstrapv4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/?)
+- [JSON Vlidator](https://jsonlint.com/)

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Login ::</title>
+    <style>
+       .main{
+           margin-top: 10%;
+           margin-left: 28%;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+       }
+       body{
+           background-repeat: no-repeat;
+           background-size: cover;
+       }
+       .card{
+           height: 400px;
+           width: 500px;
+           text-align: center;
+           border: 5px solid lightpink;
+            margin: 20 ;
+            border-radius: 10%;
+            background-color:transparent;
+
+       }
+       .un{
+           font-size: 23px;
+           font-family:Verdana, Geneva, Tahoma, sans-serif;
+           font-style:initial;
+           color: rgb(18, 100, 128);
+       }
+        .pwd{
+            font-size: 23px;
+            font-weight: 500;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            font-style:initial;
+            color: rgb(18, 100, 128);
+        }
+        button{
+            background-color: rgb(205, 239, 255);
+            padding: 5px;
+            margin-top: 10px 0px;
+            width: 40%;
+            border-radius: 4px;
+            font-weight: 700;
+            font-style: italic;
+        }
+        button:hover{
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body background="./2.jpg">
+    <div class="main">
+        <div class="card">
+            <h1 style="color: rgb(18, 100, 128);">Login</h1>
+            <img src="3.webp" height="40%" width="30%" alt="">
+            <br>
+            <br>
+            <label for="uname" class="un">Enter UserName:</label>
+             <input type="text" name="uname" id="uname" placeholder="Enter UserName" required>
+             <br>
+             <br>
+             <label for="pword " class="pwd">Enter Password:</label>
+             <input type="password" name="pwd" id="pwd">
+             <br>
+             <br>
+             <button>
+                <a href="">RESET</a>
+    
+            </button>
+            <button>
+                <a href="">LOGIN</a>
+            </button>
+             
+                         
+        </div>
+    </div>
+</body>
+</html>
