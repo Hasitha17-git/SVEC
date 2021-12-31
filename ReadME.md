@@ -376,6 +376,51 @@ Task3:
  + It provides JSX(Javascript and XML)
  + Unidirectional data flow
  + Single page applications
+
+ + Props
+   - To pass data from one component to another component we will use props
+   - Props are immutable
+ + UnionBank(functional)
+  - Andhrabank(functional)
+  - Corporationbank(class)
+
+
+ + States
+  
+    - In react to maintain information we will use states
+    - We can maintain states in class component only (before react16.8 version)
+    - To take state in react,try to create constructor above render method and 
+    inside of class Component
+    - use `rconst` snippet
+    ```
+    constructor(){
+      super();
+      this.state={
+
+      }
+    }
+    ```
+    - To update the state information in class component use
+    `setState()` method
+  + To update the information inclass class component we have to follow 
+  component life cycle methods
+    - `componentWillReceiveProps()`
+    - `componentWillMount()`
+    - `componentDidMount()`
+    - `shouldComponentUpdate()`
+    - `componentWillUpdate()`
+    - `componentWillUnmount()`
+    - `componentDidUpdate()`
+  ##### Hooks
+
+  + from react 16.8 version Hooks are introduced
+  - Parent - Child1 --> child2 --> child3
+  - `useState()`
+  - `useEffect()`
+  - `useMemo()`
+  - `useRef()`
+  - `useContext()`
+
  + Project Environmental setup
     - [Downloadvisualstudiocode](https://code.visualstudio.com/docs/?dv=win64user)
     - [Download Nodejs](https://nodejs.org/en/download/)

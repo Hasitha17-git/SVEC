@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+
+import StateinFunctionalComponent from './Components/StateinFunctionalComponent';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App />
+    <Functional/> */
+
+  <StateinFunctionalComponent/>
+    }
   </React.StrictMode>,
   document.getElementById('root')
 );
