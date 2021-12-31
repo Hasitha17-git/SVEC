@@ -365,6 +365,43 @@ Task3:
 
 + Ajax call or Promises(fetch API) or axios
 
+#### ReactJS Features
+ + It is a library,
+ + It follows componeny based architecture
+    - Function component
+    - Class component
+    - Pure component
+    - Higher Order Component
+ + It provides Virtual DOM
+ + It provides JSX(Javascript and XML)
+ + Unidirectional data flow
+ + Single page applications
+ + Project Environmental setup
+    - [Downloadvisualstudiocode](https://code.visualstudio.com/docs/?dv=win64user)
+    - [Download Nodejs](https://nodejs.org/en/download/)
+    - install nodejs and check versions of `node` and `npm`
+      - `node-v`
+      - `npm-v`
+      - `webpack` and `babel`
+      - `create-react-app`
+        - `npm install create-react-app`
+          - `create-react-app projectname`
+      - `npx(node package runner) create-react-app appname`
++ Index.html
++ index.js
++ App.js
+  + Index page
+     - nav.js
+     - body.js
+     - footer.js
+  + Home.js
+     - nav
+     - body
+     - footer
+  + Login.js
+  + Register
+  + About
+  + Contact   
 ### Reference links
 - [GITHUBLOGIN](https://github.com/Hasitha17-git/SVEC)
 - [flaticon](https://www.flaticon.com/)
