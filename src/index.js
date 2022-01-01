@@ -5,15 +5,17 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 
 
-import StateinClassComponent from './Components/StateinClassComponent';
+
+import App from './App';
+import FormRendering from './Components/FormRendering';
+import Home from './Components/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App />
-    <Functional/> */
-    <StateinClassComponent/>
-
-    }
+    
+   {/* <App/> */
+    <Home/>
+   }
   </React.StrictMode>,
   document.getElementById('root')
 );

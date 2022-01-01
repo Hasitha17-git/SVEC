@@ -1,30 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import ClassComponent from './Components/ClassComponent';
+import React from 'react'
+import ListRendering from './Components/ListRendering'
 
-function App() {
+export default function App() {
   return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img src={logo} className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>n
-    <>
-    <h1>Welcome</h1>
-    <ClassComponent/>
-    </>
-  );
+    <div>
+      <h1>
+        welcome
+      </h1><ListRendering/>    </div>
+  )
 }
 
-export default App;
