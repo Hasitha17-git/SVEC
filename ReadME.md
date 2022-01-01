@@ -414,6 +414,8 @@ Task3:
   ##### Hooks
 
   + from react 16.8 version Hooks are introduced
+  + to maontain information in functional component we can 
+  use hooks.
   - Parent - Child1 --> child2 --> child3
   - `useState()`
   - `useEffect()`
@@ -437,6 +439,19 @@ Task3:
      - `Route`
      - `element`
      - `path`
+     - `Link`
+  
+  + Redux 
+
+  - uname
+  - pword
+  - email
+    - submit
+  - update
+    - uname -->Null
+    - pword-->pword
+    - email-->email
+       - sub,it
 
  + Project Environmental setup
     - [Downloadvisualstudiocode](https://code.visualstudio.com/docs/?dv=win64user)
