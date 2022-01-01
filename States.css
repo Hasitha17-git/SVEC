@@ -1,0 +1,14 @@
+.demo{
+    border: 5px solid gray;
+    margin-left: 10px 30px;
+    background-color: honeydew;
+    border-radius: 8px;
+}
+.main{
+      border: 5px solid hotpink;
+      background-color: lightblue;
+}
+.in{
+    border: 5px solid hotpink ;
+    background-color: lightblue;
+}
