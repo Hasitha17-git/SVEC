@@ -9,12 +9,14 @@ import reportWebVitals from './reportWebVitals';
 import App from './App';
 import FormRendering from './Components/FormRendering';
 import Home from './Components/Home';
+import FormRenderingInFunctions from './Components/FormRenderingInFunctions';
 
 ReactDOM.render(
   <React.StrictMode>
     
    {/* <App/> */
-    <Home/>
+    // <Home/>,
+    <FormRenderingInFunctions/>
    }
   </React.StrictMode>,
   document.getElementById('root')
