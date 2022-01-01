@@ -421,6 +421,23 @@ Task3:
   - `useRef()`
   - `useContext()`
 
+  #### List Rendering
+
+  ### Event Handling & Form Handling
+  
+  - `onChange`
+  - `onSubmit`
+  - `preventDefault()`
+
+  #### Routing in React
+  + To navigate (*route) from one component to another
+     - install react-router-dom package by using `npm install react-router-dom`
+     - `BrowserRoyter`
+     - `Routes`
+     - `Route`
+     - `element`
+     - `path`
+
  + Project Environmental setup
     - [Downloadvisualstudiocode](https://code.visualstudio.com/docs/?dv=win64user)
     - [Download Nodejs](https://nodejs.org/en/download/)
